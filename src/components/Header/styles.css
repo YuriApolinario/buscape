@@ -1,11 +1,51 @@
-header#main-header{
-    width:100%;
-    height: 60px;
-    background: rgb(0, 0, 0);
-    font-size: 18px;
-    font-weight: bold;
-    color: aliceblue;
+header {
     display: flex;
+    background: #ffce00;
+    width: 100%;
     justify-content: center;
-    align-items:center;
-} 
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    display: block;
+    height: 40px;
+}
+
+header nav .menu {
+    position: relative;
+    display: block;
+    background: none;
+    border: none;
+    outline: 0;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header nav .menu img {
+    height: 20px;
+}
+
+header nav .menu .badge {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: #d8272d;
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
+    border-radius: 50%;
+}
