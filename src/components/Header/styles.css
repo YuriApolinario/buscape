@@ -49,3 +49,7 @@ header nav .menu .badge {
     font-size: 9pt;
     border-radius: 50%;
 }
+
+body {
+    background-color: #b7b7b7;
+}

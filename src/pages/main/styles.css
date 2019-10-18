@@ -14,29 +14,73 @@
 
 .product-list article p {
     font-size: 16px;
-    color:#9999;
+    color:rgba(77, 80, 77, 0.924);
     margin-top:5px;
     line-height: 24px;
 }
 
 .product-list article a {
-   height: 42px;
-   border-radius:5px;
-   border: 2px solid #da552f;
+   height: 20px;
+   width: 110px;
+   /* border-radius:5px; */
+   /* border: 2px solid #da552f; */
    background: none;
    margin-top: 10px;
-   color: #da552f;
+   color: #ffffff;
    font-weight: bold;
-   font-size: 16px;
+   font-size: 9px;
    text-decoration:  none;
    display: flex;
    justify-content: center;
    align-items: center;
    transition: all 0.02s;
+   background-color: #2ad60c;
+   float: right;
 
 }
 .product-list article a:hover {
-    background: #da552f;
-    color: #ffff;
+    background: #55df6c;
+    
+
+}
+.product-list article img {
+    height: 150px;
+    display: flex;
+    flex: 1 1 auto;
+    
+
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+.product-list article h5{
+    font-size: 15px;
+    margin: 18px;
+    padding: 2px;
+    color: #2ad60c;
+
+}
+.product-list article h4{
+    font-size: 40px;
+    color: #2ad60c;
+    margin: 2px;
+    padding: 2px;
+
+}
+.product-list article h6{
+    font-size: 15px;
+    color: #2ad60c;
+    margin: 2px;
+    padding: 2px;
+
+}
+.product-list article b{
+    font-size: 20px;
+    color: #2ad60c;
+    margin: 4px;
+    padding: 7px;
 
 }
